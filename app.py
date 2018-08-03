@@ -1,7 +1,7 @@
-from flask import Flask, render_template, flash, redirect, url_for, session, logging
+from flask import Flask, render_template  # , flash, redirect, url_for, session, logging
 from data import articles_fn
-from flask_mysqldb import MySQL
-from wtforms import Form, StringField, TextAreaField, PasswordField, validators
+# from flask_mysqldb import MySQL
+# from wtforms import Form, StringField, TextAreaField, PasswordField, validators
 
 
 app = Flask(__name__)
